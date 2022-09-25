@@ -54,7 +54,7 @@ body:
       description: Add any other context about the problem here.
   - type: markdown
     attributes:
-      value: "To help us understand your issue even better, please answer these questions:"
+      value: "### To help us understand your issue even better, please answer these questions:"
   - type: dropdown
     attributes:
       label: When did this start happening?
@@ -63,10 +63,11 @@ body:
     validations:
       required: true
   - type: textarea
-    label: Can you reliably reproduce the issue?
-    description: If not, provide details about how often and under what conditions the issue appears.
-  validations:
-    required: true
+    attributes:
+      label: Can you reliably reproduce the issue?
+      description: If not, provide details about how often and under what conditions the issue appears.
+    validations:
+      required: true
   - type: input
     attributes:
       label: Discord Username
