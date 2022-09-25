@@ -36,12 +36,12 @@ body:
 - type: textarea
   attributes:
     label: Exact steps to reproduce
-    description: "Describe the exact steps to reproduce the issue in as much detail as possible. Don't just list what you did, but how you did it.
+    description: "Describe the exact steps to reproduce the issue in as much detail as possible. Don't just list what you did, but how you did it."
     placeholder: |
       1. 
       2. 
       3. 
-      "..."
+      ...
   validations:
     required: true
 - type: textarea
