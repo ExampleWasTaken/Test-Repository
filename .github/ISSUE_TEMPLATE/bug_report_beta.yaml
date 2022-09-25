@@ -82,5 +82,5 @@ body:
           required: true
         - label: I have read and accepted the code of conduct of the repository.
           required: true
-        - label: "Checked that I'm really on macOS ;p"
+        - label: "I have checked that I'm really on macOS :stuck_out_tongue_winking_eye:"
           required: true
