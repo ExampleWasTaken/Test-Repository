@@ -1,10 +1,13 @@
-name: Bug Report (Windows)
-description: File a bug report for Homework Companion on Windows machines
-labels: [Bug, Windows]
+name: Bug Report (macOS)
+description: File a bug report for Homework Companion running on macOS machines
+labels: [Bug, macOS]
 body:
 - type: markdown
   attributes:
-    value: "# Homework Companion for Windows Bug Report Form"
+    value: |
+    # Homework Companion for macOS Bug Report Form
+    Please note that only the latest version of Homework Companion is supported.  
+    Head over to the [download section](https://github.com/examplewastaken-studios/homework-companion/releases/latest) to download the latest version.
 - type: dropdown
   attributes:
     label: Homework Companion Version
@@ -43,10 +46,8 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: References (optional)
-    description: If applicable, add screenshots, videos or logs to help explain your problem.
-  validations:
-    required: false
+    label: References
+    description: If applicable, add screenshots, videos, logs, etc. to help explain your problem.
 - type: textarea
   attributes:
     label: Additional information
@@ -71,13 +72,14 @@ validations:
     label: Discord Username
     description: You may optionally provide your Discord username, so that we may contact you directly about the issue.
     placeholder: ex. username#1234
-  validations:
-    required: false
 - type: checkboxes
   attributes:
-    label: Almost there...
-    description: "We'd like to have a few things cleared up before we go :)"
+    label: "Before we wrap things up"
+    description: "We'd like to make sure you did these three things:"
     options:
       - label: I have searched the issue tracker for my issue.
-          required: true
+        required: true
       - label: I have read and accepted the code of conduct of the repository.
+        required: true
+      - label: "Checked that I'm really on macOS ;p"
+        required: true
